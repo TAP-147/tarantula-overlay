@@ -1,0 +1,133 @@
+.controller.ds4 {
+    background: url(base-v2.png) no-repeat center center;
+    height: 598px;
+    width: 806px;
+    position: relative;
+    /* margin-left: -403px;
+       margin-top: -299px; */
+}
+
+/* --- Triggers (Cat Ears / Upper Pods) --- */
+.ds4 .triggers {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ds4 .trigger {
+    position: absolute;
+    width: 99px;
+    height: 100px;
+    background: url(triggers.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .trigger.left {
+    top: 0px;
+    left: 165px;
+}
+
+.ds4 .trigger.right {
+    top: 0px;
+    right: 165px;
+}
+
+/* --- Bumpers (L1 / R1) --- */
+.ds4 .bumper {
+    position: absolute;
+    width: 99px;
+    height: 23px;
+    background: url(bumper.png) no-repeat;
+    opacity: 0;
+}
+
+.ds4 .bumper.left {
+    top: 110px;
+    left: 170px;
+}
+
+.ds4 .bumper.right {
+    top: 110px;
+    right: 170px;
+}
+
+/* --- Select / Share (Back) & Start / Options --- */
+.ds4 .back, .ds4 .start {
+    position: absolute;
+    background: url(start.png) no-repeat;
+    width: 28px;
+    height: 46px;
+    opacity: 0;
+}
+
+.ds4 .back {
+    top: 165px;
+    left: 315px;
+}
+
+.ds4 .start {
+    top: 165px;
+    right: 315px;
+}
+
+/* --- Face Buttons (ABXY) --- */
+.ds4 .abxy {
+    position: absolute;
+    top: 148px;
+    right: 98px;
+    width: 160px;
+    height: 160px;
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(face.png) no-repeat;
+}
+
+.ds4 .button.y { top: 0px; left: 52px; }
+.ds4 .button.b { top: 52px; left: 105px; }
+.ds4 .button.a { top: 105px; left: 52px; }
+.ds4 .button.x { top: 52px; left: 0px; }
+
+/* --- D-Pad --- */
+.ds4 .dpad {
+    position: absolute;
+    top: 155px;
+    left: 98px;
+    width: 145px;
+    height: 145px;
+}
+
+.ds4 .face {
+    background: url(dpad.png) no-repeat;
+    position: absolute;
+}
+
+.ds4 .face.up    { top: 0px; left: 45px; width: 55px; height: 50px; }
+.ds4 .face.down  { top: 95px; left: 45px; width: 55px; height: 50px; }
+.ds4 .face.left  { top: 48px; left: 0px; width: 50px; height: 55px; }
+.ds4 .face.right { top: 48px; left: 95px; width: 50px; height: 55px; }
+
+/* --- Analog Sticks --- */
+.ds4 .sticks {
+    position: absolute;
+    top: 258px;
+    left: 216px;
+    width: 374px;
+    height: 140px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(sticks.png) no-repeat;
+    height: 94px;
+    width: 94px;
+    border-radius: 0px !important; /* Retains square housing bounds */
+}
+
+.ds4 .stick.left  { left: 0px; }
+.ds4 .stick.right { right: 0px; }
